@@ -7,7 +7,25 @@ end
 
 ###  WRITE YOUR TEST CODE HERE ###
 
+author = {
+  name: "John Doe",
+  age: 30,
+  country: "USA"
+}
 
+magazine_object = {
+  name: "The New Yorker",
+  category: "News",
+  pages: 100
+}
+
+
+
+james_kolin = Author.new("James kolin")
+
+news_magazine = Magazine.new("People Today", "politics" )
+
+article1 = Article.new(author_object, magazine_object, "article1")
 
 
 
